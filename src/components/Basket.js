@@ -5,7 +5,7 @@ import Producto from "./Producto";
 import Total from "./Total";
 
 function Basket() {
-  const [{ basket }, dispatch] = useStateValue();
+  const [{ basket }] = useStateValue();
   // console.log(basket[0]);
   // const cesta = basket[0];
   return (

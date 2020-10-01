@@ -8,6 +8,7 @@ import Typography from "@material-ui/core/Typography";
 import { TextField } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
 import { useStateValue } from "../StateProvider";
+import Subtotal from "./Subtotal";
 
 const useStyles = makeStyles({
   root: {
@@ -118,9 +119,10 @@ export default function Producto({
       </CardContent>
       <CardContent className={classes.content}>
         {/* aca va ir subtotal component */}
-        <Typography variant="body1" component="h6" align="center">
+        {/* <Typography variant="body1" component="h6" align="center">
           RD$<strong>{cantidad * precio}</strong>
-        </Typography>
+        </Typography> */}
+        <Subtotal cantidad={cantidad} precio={precio} />
       </CardContent>
 
       {/* boton */}
