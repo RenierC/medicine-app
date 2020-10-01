@@ -1,0 +1,1662 @@
+[
+  {
+    "producto": "Aceite De Hígado De Bacalao Emulsión",
+    "presentacion": "Frasco 180 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Acetaminofén",
+    "presentacion": "Tableta  500 mg",
+    "precio": "0.30"
+  },
+  {
+    "producto": "Acetaminofén",
+    "presentacion": "Supositorio 100 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Acetaminofén Gotas Pediátricas",
+    "presentacion": "Frasco Gotero 15 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Acetaminofén Jarabe",
+    "presentacion": "Frasco 120 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Acetato De Medroxiprogesterona",
+    "presentacion": "Inyección de Liberación Retardada 150 mg/ml/ Vial",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Acetazolamida",
+    "presentacion": "Tableta 250 mg",
+    "precio": "8.00"
+  },
+  {
+    "producto": "Acetilcisteína",
+    "presentacion": "Ampolla 300 mg / 3 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Aciclovir",
+    "presentacion": "Tableta 400 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Aciclovir Crema",
+    "presentacion": "Tubo 5 g",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Aciclovir Suspensión",
+    "presentacion": "Frasco 60 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Ácido Acetilsalicílico",
+    "presentacion": "Tableta 325 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Ácido Acetilsalicílico  (Uso Cardíaco)",
+    "presentacion": "Tableta 81 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Ácido Ascórbico (Vit. C)",
+    "presentacion": "Tableta 500 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Ácido Fólico",
+    "presentacion": "Tableta 5 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Ácido Fólico  Jarabe",
+    "presentacion": "Frasco 120 ml",
+    "precio": "13.00"
+  },
+  {
+    "producto": "Ácido Fólico + Vit.  B12  Jarabe",
+    "presentacion": "Frasco 120 ml",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Ácido Mefenámico",
+    "presentacion": "Tableta 500 mg",
+    "precio": "0.70"
+  },
+  {
+    "producto": "Ácido Valproico (Valproato Sódico)",
+    "presentacion": "Tableta 500 mg",
+    "precio": "12.00"
+  },
+  {
+    "producto": "Adrenalina",
+    "presentacion": "Ampolla 1 mg / 1 ml",
+    "precio": "7.00"
+  },
+  {
+    "producto": "Agua Para Inyectable",
+    "presentacion": "Ampolla 5 ml",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Agua Para Inyectable",
+    "presentacion": "Ampolla 10 ml",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Albendazol (Dosis Única)",
+    "presentacion": "Tableta 400 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Albendazol Suspensión  (Dosis Única)",
+    "presentacion": "Sobre 400 mg / 10 ml",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Albúmina Humana 20%",
+    "presentacion": "Frasco Ampolla 50 ml",
+    "precio": "2,000.00"
+  },
+  {
+    "producto": "Alcohol Isopropílico 70o",
+    "presentacion": "Frasco  120 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Alendronato",
+    "presentacion": "Tableta 70 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Algodón Planchado",
+    "presentacion": "Venda 4” x 4”",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Algodón Torunda",
+    "presentacion": "Funda 7 g",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Alopurinol",
+    "presentacion": "Tableta 300 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Ambroxol",
+    "presentacion": "Tableta 30 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Ambroxol Jarabe",
+    "presentacion": "Frasco 120 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Amikacina",
+    "presentacion": "Vial 500 mg / 2 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Amiodarona",
+    "presentacion": "Tableta 200 mg",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Aminosidina",
+    "presentacion": "Tableta 250 mg",
+    "precio": "18.00"
+  },
+  {
+    "producto": "Amitriptilina",
+    "presentacion": "Tableta 25 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Amlodipina",
+    "presentacion": "Tableta 5 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Amlodipina",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Amoxicilina",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Amoxicilina + Ácido Clavulánico",
+    "presentacion": "Cápsula  500 mg / 125 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Amoxicilina + Ácido Clavulánico Suspensión",
+    "presentacion": "Frasco 60 ml",
+    "precio": "60.00"
+  },
+  {
+    "producto": "Amoxicilina Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Ampicilina",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Ampicilina",
+    "presentacion": "Vial 1 g",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Anestesico Local + Astringente + Antiflamatorio",
+    "presentacion": "Supositorio",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Antiespasmódico (N-Butil  Bromuro-Hioscina)",
+    "presentacion": "Tableta 10 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Antiespasmódico (N-Butil Bromuro-Hioscina)",
+    "presentacion": "Ampolla 20 mg / 1 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Antigripal Jarabe",
+    "presentacion": "Frasco 120 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Atenolol",
+    "presentacion": "Tableta  50 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Atenolol",
+    "presentacion": "Tableta 100 mg",
+    "precio": "0.30"
+  },
+  {
+    "producto": "Atenolol + Clortalidona",
+    "presentacion": "Tableta 50 mg / 12.5 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Atenolol + Clortalidona",
+    "presentacion": "Tableta 100 mg / 25 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Atropina",
+    "presentacion": "Ampolla 1 mg / 1 ml",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Azitromicina",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Azitromicina Suspensión",
+    "presentacion": "Frasco 30 ml",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Bajante De Suero",
+    "presentacion": "Unidad",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Bastón Ajustable De Aluminio (Cuatro Apoyos)",
+    "presentacion": "Unidad",
+    "precio": "350.00"
+  },
+  {
+    "producto": "Bastón Ajustable De Aluminio (Un Apoyo)",
+    "presentacion": "Unidad",
+    "precio": "200.00"
+  },
+  {
+    "producto": "Betahistina",
+    "presentacion": "Tableta 6 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Betametasona 0.1% Crema",
+    "presentacion": "Tubo 15 g",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Bismuto Subsalicilato Suspensión",
+    "presentacion": "Frasco 100 mL",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Bisoprolol",
+    "presentacion": "Tableta 2.5 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Bisoprolol",
+    "presentacion": "Tableta 5 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Bolsa Colectora De Orina (Adulto)",
+    "presentacion": "Unidad",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Bolsa Colectora De Orina (Pediátrica)",
+    "presentacion": "Unidad",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Bromhexina  Jarabe",
+    "presentacion": "Frasco 60 ml",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Budesonida 100 mcg",
+    "presentacion": "Spray Frasco Nasal",
+    "precio": "390.00"
+  },
+  {
+    "producto": "Bupivacaina Pesada 0.5%",
+    "presentacion": "Vial 4 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Cabestrillo  Grande",
+    "presentacion": "Unidad",
+    "precio": "150.00"
+  },
+  {
+    "producto": "Cabestrillo Mediano",
+    "presentacion": "Unidad",
+    "precio": "150.00"
+  },
+  {
+    "producto": "Cabestrillo Pequeño",
+    "presentacion": "Unidad",
+    "precio": "150.00"
+  },
+  {
+    "producto": "Carbonato De Litio",
+    "presentacion": "Tableta 300 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Carvedilol",
+    "presentacion": "Tableta 6.25 mg",
+    "precio": "0.70"
+  },
+  {
+    "producto": "Carvedilol",
+    "presentacion": "Tableta 12.5 mg",
+    "precio": "0.70"
+  },
+  {
+    "producto": "Catéter E.V. # 18",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Catéter E.V. # 20",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Catéter E.V. # 22",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Catéter E.V. # 24",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Cefaclor",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Cefalexina",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Cefalexina Suspensión",
+    "presentacion": "Frasco  120 ml",
+    "precio": "35.00"
+  },
+  {
+    "producto": "Cefepime",
+    "presentacion": "Vial 1 g",
+    "precio": "35.00"
+  },
+  {
+    "producto": "Cefotaxima",
+    "presentacion": "Vial 1 g",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Ceftriazona",
+    "presentacion": "Vial 1 g",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Cetirizina",
+    "presentacion": "Frasco 60 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Cetirizina",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Ciprofloxacina",
+    "presentacion": "Tableta 500 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Citicolina",
+    "presentacion": "Tableta 500 mG",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Claritromicina",
+    "presentacion": "Tableta 500 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Claritromicina Suspensión",
+    "presentacion": "Frasco 60 ml",
+    "precio": "90.00"
+  },
+  {
+    "producto": "Clindamicina",
+    "presentacion": "Cápsula 300 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Clindamicina",
+    "presentacion": "Óvulo 100 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Clopidogrel",
+    "presentacion": "Tableta 75 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Cloranfenicol",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "3.50"
+  },
+  {
+    "producto": "Cloranfenicol Oftálmico",
+    "presentacion": "Frasco Gotero 10 ml",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Clorpromazina",
+    "presentacion": "Tableta 25 mG",
+    "precio": "6.00"
+  },
+  {
+    "producto": "Clorpromazina",
+    "presentacion": "Tableta 100 mG",
+    "precio": "7.00"
+  },
+  {
+    "producto": "Clorpromazina",
+    "presentacion": "Tableta 200 mG",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Cloruro De Sodio Gotas Nasales",
+    "presentacion": "Frasco 15 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Clotrimazol",
+    "presentacion": "Óvulo 100 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Clotrimazol",
+    "presentacion": "Óvulo 500 mg",
+    "precio": "6.00"
+  },
+  {
+    "producto": "Clotrimazol Crema",
+    "presentacion": "Tubo 30 g",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Clotrimazol Solución Tópica",
+    "presentacion": "Frasco Gotero 20 ml",
+    "precio": "12.00"
+  },
+  {
+    "producto": "Codera Grande",
+    "presentacion": "Unidad",
+    "precio": "180.00"
+  },
+  {
+    "producto": "Codera Mediana",
+    "presentacion": "Unidad",
+    "precio": "180.00"
+  },
+  {
+    "producto": "Collarín Rígido Ajustable",
+    "presentacion": "Unidad",
+    "precio": "350.00"
+  },
+  {
+    "producto": "Complejo B",
+    "presentacion": "Tableta",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Complejo B",
+    "presentacion": "Vial 10 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Complejo B Jarabe",
+    "presentacion": "Frasco 120 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Deflazacort",
+    "presentacion": "Tableta 6 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Dexametasona",
+    "presentacion": "Tableta 0.5 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Dexametasona",
+    "presentacion": "Ampolla  4 mg / 1 ml",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Dexametasona",
+    "presentacion": "Tableta 4 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Dextrosa 50%",
+    "presentacion": "Ampolla 20 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Diclofenac Gel",
+    "presentacion": "Tubo 20 g",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Diclofenac Sódico",
+    "presentacion": "Ampolla 75 mg / 3 ml",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Diclofenac Sódico",
+    "presentacion": "Tableta 50 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Diclofenac Sódico Ó Potásico",
+    "presentacion": "Supositorio 12.5 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Dicloxacilina",
+    "presentacion": "Cápsula 500 mg",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Dicloxacilina Suspensión",
+    "presentacion": "Frasco 60 ml",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Difenhidramina",
+    "presentacion": "Tableta 25 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Difenhidramina",
+    "presentacion": "Ampolla 10 mg / 1 ml",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Difenhidramina Jarabe",
+    "presentacion": "Frasco 60 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Digoxina",
+    "presentacion": "50 mcg/ml Liquido Oral Frasco",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Digoxina",
+    "presentacion": "Tableta 0.25 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Dimenhidrinato",
+    "presentacion": "Supositorio 25 mg",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Dimenhidrinato",
+    "presentacion": "Ampolla 50 mg / 1 ml",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Dimenhidrinato",
+    "presentacion": "Tableta 50 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Dimenhidrinato Jarabe",
+    "presentacion": "Frasco 60 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Doxiciclina",
+    "presentacion": "Cápsula 100 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Enalapril",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Enalapril",
+    "presentacion": "Tableta 20 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Eritromicina  Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Eritromicina Estearato",
+    "presentacion": "Tableta 500 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Eritropoyetina Recombinante Humana",
+    "presentacion": "Ampolla 4000 UI / 0.3  ml",
+    "precio": "135.00"
+  },
+  {
+    "producto": "Espirómetro",
+    "presentacion": "Unidad",
+    "precio": "200.00"
+  },
+  {
+    "producto": "Espironolactona",
+    "presentacion": "Tableta  25 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Espironolactona",
+    "presentacion": "Tableta  100 mg",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Estrógenos Conjugados",
+    "presentacion": "Tableta 0.625 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Etinilestradiol + Levonorgestrel",
+    "presentacion": "Tableta 30 mcg +150 mcg",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Fenitoína",
+    "presentacion": "Tableta 100 mg",
+    "precio": "8.00"
+  },
+  {
+    "producto": "Fenitoína Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "200.00"
+  },
+  {
+    "producto": "Fitomenadiona (Vit. K)",
+    "presentacion": "Ampolla 10 mg/ 1 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Fluconazol",
+    "presentacion": "Cápsula 150 mg",
+    "precio": "2.50"
+  },
+  {
+    "producto": "Fluconazol Suspensión",
+    "presentacion": "Frasco 60 ml",
+    "precio": "200.00"
+  },
+  {
+    "producto": "Flufenazina Decanoato",
+    "presentacion": "Ampolla Inyectable 25 mg/ml",
+    "precio": "800.00"
+  },
+  {
+    "producto": "Fluoxetina",
+    "presentacion": "Tableta, 20 mg",
+    "precio": "6.00"
+  },
+  {
+    "producto": "Fosfomicina",
+    "presentacion": "Tableta 500 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Fosfomicina Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "140.00"
+  },
+  {
+    "producto": "Furosemida",
+    "presentacion": "Tableta 40 mg",
+    "precio": "0.30"
+  },
+  {
+    "producto": "Furosemida",
+    "presentacion": "Ampolla 20 mg / 2 ml",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Gasa Precortada  4” X 4”",
+    "presentacion": "Sobre / 10 Unidades",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Gentamicina",
+    "presentacion": "Ampolla 80 mg / 2 ml",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Gentamicina Solución Oftálmica",
+    "presentacion": "Frasco Gotero 5 ml",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Glibenclamida",
+    "presentacion": "Tableta 5 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Gotas Óticas (Polimixina + Neomicina)",
+    "presentacion": "Frasco Gotero 10 ml",
+    "precio": "125.00"
+  },
+  {
+    "producto": "Griseofulvina",
+    "presentacion": "Tableta 500 mg",
+    "precio": "7.00"
+  },
+  {
+    "producto": "Guante Examen Mediano",
+    "presentacion": "Par",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Haloperidol",
+    "presentacion": "Tableta 5 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Haloperidol",
+    "presentacion": "Frasco Gotero 15 ml",
+    "precio": "16.00"
+  },
+  {
+    "producto": "Heparina",
+    "presentacion": "Vial 5000 UI / 5 mL",
+    "precio": "75.00"
+  },
+  {
+    "producto": "Hidralacina Clorhidrato",
+    "presentacion": "Tableta 50 mg",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Hidroclorotiazida",
+    "presentacion": "Tableta  25 mg",
+    "precio": "0.30"
+  },
+  {
+    "producto": "Hidroclorotiazida",
+    "presentacion": "Tableta  50 mg",
+    "precio": "0.30"
+  },
+  {
+    "producto": "Hidrocortisona",
+    "presentacion": "Vial 100 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Hidrocortisona 1%  Pomada",
+    "presentacion": "Tubo 15 g",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Hierro Sacarosa",
+    "presentacion": "Ampolla 100 mg / 5 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Ibuprofeno",
+    "presentacion": "Tableta 400 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Ibuprofeno",
+    "presentacion": "Tableta 600 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Ibuprofeno Suspensión",
+    "presentacion": "Frasco 60 ml",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Imipramina",
+    "presentacion": "Tableta 25 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Inmovilizador de Dedo en Aluminio para Adultos",
+    "presentacion": "Unidad",
+    "precio": "120.00"
+  },
+  {
+    "producto": "Inmunoglobulina Antitetánica Humana",
+    "presentacion": "Vial 250 UI / 1 ml",
+    "precio": "500.00"
+  },
+  {
+    "producto": "Insulina Cristalina Regular",
+    "presentacion": "Vial 10 ml",
+    "precio": "110.00"
+  },
+  {
+    "producto": "Insulina Mixta 70/30",
+    "presentacion": "Vial 10 ml",
+    "precio": "110.00"
+  },
+  {
+    "producto": "Insulina NPH",
+    "presentacion": "Vial 10 ml",
+    "precio": "110.00"
+  },
+  {
+    "producto": "Insulina Recombinante, Análoga Humana",
+    "presentacion": "Ampolla Multidosis",
+    "precio": "350.00"
+  },
+  {
+    "producto": "Ipratropio Bromuro Solución P/Nebulizar",
+    "presentacion": "Ampolla 0.900mg/3ml",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Itraconazol",
+    "presentacion": "Cápsula 100 mg",
+    "precio": "6.50"
+  },
+  {
+    "producto": "Jabón Antiséptico (Benzalconio)",
+    "presentacion": "Pasta 100 g",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Jabón De Avena",
+    "presentacion": "Pasta 100 g",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Jabón De Azufre",
+    "presentacion": "Pasta 100 g",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Jeringa 10 ml",
+    "presentacion": "Unidad",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Jeringa 20 ml",
+    "presentacion": "Unidad",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Jeringa 3 ml",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Jeringa 5 ml",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Jeringa Insulina",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Ketoconazol",
+    "presentacion": "Tableta 200 mg",
+    "precio": "1.25"
+  },
+  {
+    "producto": "Ketoconazol 2% Crema",
+    "presentacion": "Tubo 30 g",
+    "precio": "12.00"
+  },
+  {
+    "producto": "Ketoconazol Champú",
+    "presentacion": "Frasco 100 ml",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Lactulosa Jarabe",
+    "presentacion": "Frasco 240 ml",
+    "precio": "150.00"
+  },
+  {
+    "producto": "Levodopa+Benserazida",
+    "presentacion": "Tableta 200 mg + 50 mg",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Levofloxacina",
+    "presentacion": "Tableta 500 mg",
+    "precio": "2.50"
+  },
+  {
+    "producto": "Levotiroxina",
+    "presentacion": "Tableta 25 mcg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Levotiroxina",
+    "presentacion": "Tableta 50 mcg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Levotiroxina",
+    "presentacion": "Tableta 0.1 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Lidocaina Clorhidrato 2%",
+    "presentacion": "Vial / 50 ml",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Lisinopril",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Lisinopril",
+    "presentacion": "Tableta 20 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Loperamida",
+    "presentacion": "Tableta 2 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Loratadina",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Loratadina Jarabe",
+    "presentacion": "Frasco 90 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Losartán Potásico",
+    "presentacion": "Tableta 50 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Mariposita #21",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Mariposita #23",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Mariposita #25",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Mascarilla Para Nebulizar (Adulto)",
+    "presentacion": "Unidad",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Mascarilla Para Nebulizar (Pediátrica)",
+    "presentacion": "Unidad",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Mebendazol",
+    "presentacion": "Blíster de 6 Tabletas",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Mebendazol Suspensión",
+    "presentacion": "Frasco 30 ml",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Mecobalamina (Vit. B12)",
+    "presentacion": "Cápsula 500 mcg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Meloxicam",
+    "presentacion": "Tableta 15 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Metformina",
+    "presentacion": "Tableta 500 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Metformina",
+    "presentacion": "Tableta 850 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Metildopa",
+    "presentacion": "Tableta 250 mg",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Metildopa",
+    "presentacion": "Tableta 500 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Metilprednisolona",
+    "presentacion": "Vial 40 mg / 1 ml)",
+    "precio": "300.00"
+  },
+  {
+    "producto": "Metoclopramida",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.40"
+  },
+  {
+    "producto": "Metoclopramida",
+    "presentacion": "Ampolla 10 mg / 2  ml",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Metoclopramida Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Metronidazol",
+    "presentacion": "Tableta 500 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Metronidazol",
+    "presentacion": "Frasco 120 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Metronidazol + Diyodohidroxiquinoleína",
+    "presentacion": "Frasco 120 ml (400 mg + 200 mg)",
+    "precio": "85.00"
+  },
+  {
+    "producto": "Metronidazol + Diyodohidroxiquinoleína",
+    "presentacion": "Tableta 400 mg /200 mg",
+    "precio": "7.00"
+  },
+  {
+    "producto": "Metronidazol + Diyodohidroxiquinoleína",
+    "presentacion": "Frasco 120 ml (250 mg + 200 mg)",
+    "precio": "80.00"
+  },
+  {
+    "producto": "Metronidazol Benzoato Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Metronidazol Solución Inyectable",
+    "presentacion": "Frasco 500 mg /100 ml",
+    "precio": "12.00"
+  },
+  {
+    "producto": "Muletas De Aluminio Grandes Para Adultos L",
+    "presentacion": "Unidad",
+    "precio": "300.00"
+  },
+  {
+    "producto": "Muletas De Aluminio Grandes Para Adultos XL",
+    "presentacion": "Unidad",
+    "precio": "300.00"
+  },
+  {
+    "producto": "Muletas De Aluminio Pequeña Para Adolescentes S",
+    "presentacion": "Unidad",
+    "precio": "300.00"
+  },
+  {
+    "producto": "Multivitamínico Lactante",
+    "presentacion": "Frasco Gotero 15 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Nafazolina 0.001% , Sol. Oftálmica",
+    "presentacion": "Frasco 10 ml",
+    "precio": "35.00"
+  },
+  {
+    "producto": "Naproxeno",
+    "presentacion": "Cápsula 550 mg",
+    "precio": "7.00"
+  },
+  {
+    "producto": "Nifedipina",
+    "presentacion": "Tableta 10 mg",
+    "precio": "0.20"
+  },
+  {
+    "producto": "Nistatina",
+    "presentacion": "Óvulo 100,000 UI",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Nistatina Suspensión",
+    "presentacion": "Frasco 30 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Nitrofurantoína (Macrocristales)",
+    "presentacion": "Cápsula 100 mg",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Nitrofurazona 0.2%  Pomada",
+    "presentacion": "Tubo 30 g",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Ofloxacina",
+    "presentacion": "Tableta 400 mg",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Olanzapina",
+    "presentacion": "Tableta 5 mg",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Omeprazol",
+    "presentacion": "Cápsula 20 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Orinal Para Mujer",
+    "presentacion": "Unidad",
+    "precio": "65.00"
+  },
+  {
+    "producto": "Óxido De Zinc Loción",
+    "presentacion": "Frasco 120 ml",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Pañal Desechable Grande Para Adultos",
+    "presentacion": "Unidad",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Pañal Desechable Mediano Niños 9-15 Kg",
+    "presentacion": "Unidad",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Pañal Desechable Mediano Para Adultos",
+    "presentacion": "Unidad",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Pañal Desechable para niños L",
+    "presentacion": "Unidad",
+    "precio": "12.00"
+  },
+  {
+    "producto": "Pañal Desechable Pequeño Niños 4-10 Kg",
+    "presentacion": "Unidad",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Pañal Desechable Pequeño Para Adultos",
+    "presentacion": "Unidad",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Pañal Desechable Recién Nacidos 2-5 Kg",
+    "presentacion": "Unidad",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Penicilina G Benzatínica 1.2",
+    "presentacion": "Vial",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Penicilina G Benzatínica 2.4",
+    "presentacion": "Vial",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Penicilina G Benzatínica 600,000",
+    "presentacion": "Vial",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Penicilina G Procaínica 0.4",
+    "presentacion": "Vial",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Penicilina G Procaínica 4.0",
+    "presentacion": "Vial",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Penicilina G Procaínica 800,000",
+    "presentacion": "Vial",
+    "precio": "60.00"
+  },
+  {
+    "producto": "Perita Nasal",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Permetrina 1% Champú",
+    "presentacion": "Frasco 60 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Permetrina 1% Loción",
+    "presentacion": "Frasco 60 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Permetrina 5% Crema",
+    "presentacion": "Tubo 30 g",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Pirimetamina",
+    "presentacion": "Tableta 25 mg",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Pramipexol",
+    "presentacion": "Tableta 1 mg",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Prednisolona",
+    "presentacion": "Tableta 5 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Prednisona",
+    "presentacion": "Tableta 5 mg",
+    "precio": "0.70"
+  },
+  {
+    "producto": "Prednisona",
+    "presentacion": "Tableta 20 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Prednisona",
+    "presentacion": "Tableta 50 mg",
+    "precio": "6.00"
+  },
+  {
+    "producto": "Pregabalina",
+    "presentacion": "Capsula 75 mg",
+    "precio": "10.00"
+  },
+  {
+    "producto": "Pregabalina",
+    "presentacion": "Capsula 300 mg",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Preservativo Masculino",
+    "presentacion": "Unidad",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Propranolol",
+    "presentacion": "Tableta 20 mg",
+    "precio": "0.40"
+  },
+  {
+    "producto": "Propranolol",
+    "presentacion": "Tableta 40 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Proteina Hiperprotéica, Supl. Nut. Liquido",
+    "presentacion": "Frasco 8 oz",
+    "precio": "100.00"
+  },
+  {
+    "producto": "Proteína Polimérica Con Probiótico Liquida",
+    "presentacion": "Frasco 8 oz",
+    "precio": "60.00"
+  },
+  {
+    "producto": "Proteína Polimérica Con Probiótico Polvo",
+    "presentacion": "Lata 400 g",
+    "precio": "280.00"
+  },
+  {
+    "producto": "Proteína Polimérica Hipercalórica Liquida",
+    "presentacion": "Frasco 8 oz",
+    "precio": "120.00"
+  },
+  {
+    "producto": "Proteína Polimérica Liquida",
+    "presentacion": "Frasco 8 oz",
+    "precio": "60.00"
+  },
+  {
+    "producto": "Proteína Polimérica Para Diabetes Liquida",
+    "presentacion": "Frasco 8 oz",
+    "precio": "70.00"
+  },
+  {
+    "producto": "Proteína Polimérica Polvo",
+    "presentacion": "Lata 400 g",
+    "precio": "300"
+  },
+  {
+    "producto": "Quetiapina",
+    "presentacion": "Tableta 25 mg",
+    "precio": "16.00"
+  },
+  {
+    "producto": "Quetiapina",
+    "presentacion": "Tableta 100 mg",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Ramipril",
+    "presentacion": "Tableta 5 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Ranitidina",
+    "presentacion": "Tableta 150 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Ranitidina",
+    "presentacion": "Ampolla 50 mg /2 ml",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Rasagilina",
+    "presentacion": "Tableta 1 mg",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Risperidona",
+    "presentacion": "Tableta 1 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Risperidona",
+    "presentacion": "Tableta 2 mg",
+    "precio": "2.00"
+  },
+  {
+    "producto": "Rodillera Pequeña",
+    "presentacion": "Unidad",
+    "precio": "125.00"
+  },
+  {
+    "producto": "Sal Ferrosa + Ácido Fólico",
+    "presentacion": "Tableta 60 mg + 400 mcG",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Salbutamol",
+    "presentacion": "Tableta 4 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Salbutamol Solución Para Nebulizar",
+    "presentacion": "Frasco 10 ml",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Salbutamol Sulfato",
+    "presentacion": "Aerosol 100 mcg",
+    "precio": "60.00"
+  },
+  {
+    "producto": "Sales De Rehidratación Oral",
+    "presentacion": "Sobre",
+    "precio": "4.00"
+  },
+  {
+    "producto": "Simvastatina",
+    "presentacion": "Tableta 20 mg",
+    "precio": "0.50"
+  },
+  {
+    "producto": "Simvastatina",
+    "presentacion": "Tableta 40 mg",
+    "precio": "1.00"
+  },
+  {
+    "producto": "Solución Cloruro De Sodio 0.9%",
+    "presentacion": "Frasco 1000 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Solución Cloruro De Sodio 0.9%",
+    "presentacion": "Frasco 100 ml",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Solución Dextrosa 5%",
+    "presentacion": "Frasco 1000 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Solución Dextrosa 5% + Cloruro De Sodio 0.33%",
+    "presentacion": "Frasco 1000 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Solución Dextrosa 5% + Cloruro De Sodio 0.9%",
+    "presentacion": "Frasco 1000 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Solución Dextrosa en Ringer 6.423g/100ml",
+    "presentacion": "Frasco 1000 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Solución Ringer Con Lactato",
+    "presentacion": "Frasco 1000 ml",
+    "precio": "40.00"
+  },
+  {
+    "producto": "Sonda Foley #14",
+    "presentacion": "Unidad",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Sonda Foley #16",
+    "presentacion": "Unidad",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Sucralfato",
+    "presentacion": "Sobre/Polvo 1 g",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Sulfadiazina Argéntica 1% Crema",
+    "presentacion": "Tubo 30 g",
+    "precio": "50.00"
+  },
+  {
+    "producto": "Sulfato De Zinc",
+    "presentacion": "Tabletas 20 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Sulfato Ferroso",
+    "presentacion": "Tableta 300 mg",
+    "precio": "0.30"
+  },
+  {
+    "producto": "Sulfato Ferroso + Ácido Fólico",
+    "presentacion": "Tableta 300 mg + 5 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Sulfato Ferroso 25 mg",
+    "presentacion": "Frasco 60 ml",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Sulfato Ferroso Gotas Pediátricas",
+    "presentacion": "Frasco Gotero 30 ml",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Termómetro Oral",
+    "presentacion": "Unidad",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Timolol 0.005% , Solución Oftálmica",
+    "presentacion": "Frasco 10 ml",
+    "precio": "30.00"
+  },
+  {
+    "producto": "Tinidazol",
+    "presentacion": "Tableta 500 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Tobramicina Oftálmica 0.3%",
+    "presentacion": "Frasco Gotero 5 ml",
+    "precio": "30"
+  },
+  {
+    "producto": "Tramadol",
+    "presentacion": "Cápsula 50 mg",
+    "precio": "1.5"
+  },
+  {
+    "producto": "Trihexifenidilo",
+    "presentacion": "Tableta 5 mg",
+    "precio": "30"
+  },
+  {
+    "producto": "Trimetoprim-Sulfametoxazol",
+    "presentacion": "Tableta 160 mg / 800 mg",
+    "precio": "1.5"
+  },
+  {
+    "producto": "Trimetoprim-Sulfametoxazol Suspensión",
+    "presentacion": "Frasco 120 ml",
+    "precio": "20"
+  },
+  {
+    "producto": "Valsartán",
+    "presentacion": "Tableta 160 mg",
+    "precio": "3.00"
+  },
+  {
+    "producto": "Venda De Yeso 4’ X 5”",
+    "presentacion": "Unidad",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Venda De Yeso 6’ X 5”",
+    "presentacion": "Unidad",
+    "precio": "25.00"
+  },
+  {
+    "producto": "Venda Elástica 3’ X 5”",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Venda Elástica 4’ X 5”",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Venda Elástica 6’ X 5”",
+    "presentacion": "Unidad",
+    "precio": "15.00"
+  },
+  {
+    "producto": "Verapamil",
+    "presentacion": "Tableta 80 mg",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Vitamina A",
+    "presentacion": "Perla 50,000 UI",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Vitamina A Y D",
+    "presentacion": "Perla 3,000 UI / 300 UI",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Vitamina E",
+    "presentacion": "Perla 400 UI",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Vitaminas Neurotropas + Dexametasona",
+    "presentacion": "Ampolla",
+    "precio": "20.00"
+  },
+  {
+    "producto": "Vitaminas Y Minerales",
+    "presentacion": "Cápsula",
+    "precio": "1.50"
+  },
+  {
+    "producto": "Warfarina Sódica",
+    "presentacion": "Tableta 5 mg",
+    "precio": "5.00"
+  },
+  {
+    "producto": "Yodopovidona",
+    "presentacion": "Frasco 120 ml",
+    "precio": "50.00"
+  }
+]
