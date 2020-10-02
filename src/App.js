@@ -5,6 +5,7 @@ import Basket from "./components/Basket";
 import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
+import EmptyBasket from "./components/EmptyBasket";
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
@@ -38,6 +39,9 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
+          <Route path="/empty">
+            <EmptyBasket />
+          </Route>
           <Route path="/checkout">
             <Basket />
           </Route>
