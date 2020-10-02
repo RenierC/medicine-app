@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useStateValue } from "../StateProvider";
 import "./Basket.css";
 import Producto from "./Producto";
@@ -6,8 +6,7 @@ import Total from "./Total";
 
 function Basket() {
   const [{ basket }] = useStateValue();
-  // console.log(basket[0]);
-  // const cesta = basket[0];
+
   return (
     <div className="basket">
       <h3>Ud tiene {basket?.length} productos en la cesta </h3>

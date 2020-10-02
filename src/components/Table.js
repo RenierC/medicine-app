@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Table.css";
 import medicinas from "./medicinas.json";
 import { useStateValue } from "../StateProvider";
-import db from "../firebase";
+//import db from "../firebase";
 import { v4 as uuidv4 } from "uuid";
 
 import MUIDataTable from "mui-datatables";
@@ -98,13 +98,6 @@ function Table() {
             <FormControlLabel
               onClick={(e) => {
                 addToBasket(tableMeta);
-                // console.log(tableMeta.rowData[3]);
-
-                // id = tableMeta.rowIndex
-                // producto = tableMeta.rowData[0]
-                // presentacion = tableMeta.rowData[1]
-                // precio = tableMeta.rowData[2]
-                // cantidad = tableMeta.rowData[3]
               }}
               control={
                 <Checkbox
