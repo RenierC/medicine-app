@@ -4,6 +4,7 @@ import { useStateValue } from "../StateProvider";
 import "./Basket.css";
 import Producto from "./Producto";
 import Total from "./Total";
+import BorrarTodo from "./BorrarTodo";
 
 function Basket() {
   const [{ basket }] = useStateValue();
@@ -24,6 +25,9 @@ function Basket() {
               cantidad={producto.cantidad}
             />
           ))}
+          <div className="btnBorrarTodo">
+            <BorrarTodo />
+          </div>
         </div>
 
         <div className="totalBasket">

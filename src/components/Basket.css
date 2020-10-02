@@ -7,8 +7,8 @@
   flex-grow: 1;
   max-width: 1074px;
 }
-.totalBasket {
-  margin-left: auto;
+.btnBorrarTodo {
+  margin: 0 0 2rem 2rem;
 }
 
 @media (max-width: 1000px) {
