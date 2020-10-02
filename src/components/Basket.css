@@ -1,0 +1,22 @@
+.container {
+  display: grid;
+  place-items: center;
+}
+.basket {
+  display: flex;
+  flex-grow: 1;
+  max-width: 1074px;
+}
+.totalBasket {
+  margin-left: auto;
+}
+
+@media (max-width: 1000px) {
+  .basket {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .totalBasket {
+    margin-right: auto;
+  }
+}

@@ -16,7 +16,8 @@ const useStyles = makeStyles({
     flexWrap: "wrap",
     backgroundColor: "#f1faee",
     margin: "2rem",
-    maxWidth: 700,
+    maxWidth: 600,
+    minWidth: 200,
   },
   details: {
     display: "flex",
@@ -24,10 +25,13 @@ const useStyles = makeStyles({
   },
   content: {
     flex: "1 0 auto",
-    //border: "1px red solid",
+    // border: "1px red solid",
   },
   cantidadField: {
-    //float: "right",
+    float: "right",
+  },
+  subtotal: {
+    textAlign: "right",
   },
   boton: {
     flex: "1 0 auto",
@@ -36,26 +40,6 @@ const useStyles = makeStyles({
     // alignSelf: "flex-end",
     // flexGrow: 1,
     // border: "1px red solid",
-  },
-
-  title: {
-    fontSize: 14,
-  },
-  pos: {
-    marginBottom: 12,
-  },
-  fila: {
-    display: "flex",
-    flexDirection: "row",
-    flexWrap: "wrap",
-    width: "100%",
-  },
-  columna: {
-    display: "flex",
-    flexDirection: "column",
-    flexBasis: "100%",
-    flex: "1 0 auto",
-    border: "2px red solid",
   },
 });
 
@@ -90,9 +74,7 @@ export default function Producto({
     <Card elevation={4} className={classes.root}>
       <div className={classes.details}>
         <CardContent className={classes.content}>
-          <Typography variant="h5" component="h5">
-            {producto}
-          </Typography>
+          <Typography variant="subtitle1">{producto}</Typography>
           <Typography variant="body2" component="p">
             {presentacion}
           </Typography>
@@ -100,11 +82,13 @@ export default function Producto({
       </div>
       {/* CAntidad */}
       <CardContent className={classes.content}>
-        <div className={classes.test}>
+        <div className={classes.cantidadField}>
           <TextField
             name="cantidad"
             value={quantity}
-            InputProps={{ inputProps: { min: 1 } }}
+            InputProps={{
+              inputProps: { min: 1, style: { textAlign: "center" } },
+            }}
             label="Cantidad"
             type="number"
             InputLabelProps={{
@@ -117,13 +101,14 @@ export default function Producto({
           />
         </div>
       </CardContent>
-      <CardContent className={classes.content}>
-        {/* aca va ir subtotal component */}
-        {/* <Typography variant="body1" component="h6" align="center">
+      <div className={classes.subtotal}>
+        <CardContent className={classes.content}>
+          {/* <Typography variant="body1" component="h6" align="center">
           RD$<strong>{cantidad * precio}</strong>
         </Typography> */}
-        <Subtotal cantidad={cantidad} precio={precio} />
-      </CardContent>
+          <Subtotal cantidad={cantidad} precio={precio} />
+        </CardContent>
+      </div>
 
       {/* boton */}
       <CardActions className={classes.boton}>

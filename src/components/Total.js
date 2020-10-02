@@ -13,7 +13,7 @@ function Total() {
       display: "flex",
       flexWrap: "wrap",
       backgroundColor: "#f1faee",
-      maxWidth: "50%",
+      maxWidth: "300px",
       margin: "2rem",
     },
     content: {

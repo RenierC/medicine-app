@@ -13,6 +13,7 @@ import { useStateValue } from "../StateProvider";
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
+    alignItems: "center",
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -20,6 +21,10 @@ const useStyles = makeStyles((theme) => ({
   title: {
     flexGrow: 1,
   },
+  // toolBarSize: {
+  //   flexGrow: 1,
+  //   maxWidth: 800,
+  // },
 }));
 
 export default function ButtonAppBar() {
