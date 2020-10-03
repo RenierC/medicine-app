@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import EmptyBasket from "./components/EmptyBasket";
+import SnackbarMessage from "./components/SnackbarMessage";
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
@@ -27,7 +28,9 @@ function App() {
         })
       );
     }
-  }, []);
+  }, [dispatch]);
+
+  // antes el dispatch no estaban en [] if something fails check that solo estaban []
 
   // Add everything that is in the basket to localStorage
   useEffect(() => {
@@ -38,6 +41,7 @@ function App() {
     <Router>
       <div className="App">
         <Header />
+        <SnackbarMessage />
         <Switch>
           <Route path="/empty">
             <EmptyBasket />

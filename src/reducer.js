@@ -1,5 +1,7 @@
 export const initialState = {
   basket: [],
+  showSnacks: false,
+  kind: "",
 };
 
 export const totalCesta = (basket) =>
@@ -14,6 +16,19 @@ const reducer = (state, action) => {
   );
 
   switch (action.type) {
+    case "SHOW_SNACKBAR":
+      return {
+        ...state,
+        showSnacks: true,
+        kind: action.kind,
+      };
+
+    case "CLOSE_SNACKBAR":
+      return {
+        ...state,
+        showSnacks: false,
+      };
+
     case "ADD_TO_BASKET":
       return {
         ...state,

@@ -15,7 +15,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
 
 export default function AlertDialogSlide() {
   const [open, setOpen] = React.useState(false);
-  const [{ basket }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -26,10 +26,18 @@ export default function AlertDialogSlide() {
   };
 
   const borrarTodo = () => {
+    showSnack("info");
     dispatch({
       type: "REMOVE_ALL_FROM_BASKET",
     });
     setOpen(false);
+  };
+
+  const showSnack = (message) => {
+    dispatch({
+      type: "SHOW_SNACKBAR",
+      kind: message,
+    });
   };
 
   return (

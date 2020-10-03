@@ -23,6 +23,7 @@ function Table() {
   const addToBasket = (tableMeta) => {
     const amount = tableMeta.rowData[3];
     let cantidad = () => (amount ? amount : 1);
+    showSnack("success");
 
     dispatch({
       type: "ADD_TO_BASKET",
@@ -34,6 +35,13 @@ function Table() {
         precio: Number(tableMeta.rowData[2]),
         cantidad: Number(cantidad()),
       },
+    });
+  };
+
+  const showSnack = (message) => {
+    dispatch({
+      type: "SHOW_SNACKBAR",
+      kind: message,
     });
   };
 

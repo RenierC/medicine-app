@@ -51,17 +51,25 @@ export default function Producto({
   presentacion,
 }) {
   const classes = useStyles();
-  const [{ basket }, dispatch] = useStateValue();
+  const [, dispatch] = useStateValue();
   const [quantity, setQuantity] = useState(cantidad);
 
   const removeFromBasket = () => {
+    showSnack("info");
     dispatch({
       type: "REMOVE_FROM_BASKET",
       id: id,
     });
   };
+
+  const showSnack = (message) => {
+    dispatch({
+      type: "SHOW_SNACKBAR",
+      kind: message,
+    });
+  };
+
   const updateQuantity = (newValue) => {
-    console.log("✏ value changed " + newValue);
     setQuantity(newValue);
     dispatch({
       type: "UPDATE_QUANTITY",
@@ -117,6 +125,7 @@ export default function Producto({
           color="primary"
           startIcon={<DeleteIcon />}
           size="small"
+          //onClick={showSnack}
           onClick={removeFromBasket}
         >
           Borrar
