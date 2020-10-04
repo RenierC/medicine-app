@@ -11,7 +11,7 @@ import ShoppingBasketOutlinedIcon from "@material-ui/icons/ShoppingBasketOutline
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import Checkbox from "@material-ui/core/Checkbox";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
-import { TextField } from "@material-ui/core";
+import { IconButton, TextField } from "@material-ui/core";
 import { motion } from "framer-motion";
 
 function Table() {
@@ -64,7 +64,7 @@ function Table() {
       overrides: {
         MuiTableCell: {
           head: {
-            backgroundColor: "#23272a !important",
+            backgroundColor: "#057c8c !important",
             color: "#ffffff",
           },
         },
@@ -112,18 +112,27 @@ function Table() {
         empty: true,
         customBodyRender: (value, tableMeta, updateValue) => {
           return (
-            <FormControlLabel
-              onClick={(e) => {
+            // <FormControlLabel
+            //   onClick={(e) => {
+            //     addToBasket(tableMeta);
+            //   }}
+            //   control={
+            //     <Checkbox
+            //       icon={<ShoppingBasketOutlinedIcon />}
+            //       checkedIcon={<ShoppingBasketIcon />}
+            //       name="checkedH"
+            //     />
+            //   }
+            // />
+            // non toggeable button test
+            <IconButton
+              onClick={() => {
                 addToBasket(tableMeta);
               }}
-              control={
-                <Checkbox
-                  icon={<ShoppingBasketOutlinedIcon />}
-                  checkedIcon={<ShoppingBasketIcon />}
-                  name="checkedH"
-                />
-              }
-            />
+            >
+              <ShoppingBasketIcon style={{ color: "#3796a3" }} />
+            </IconButton>
+            // finish non toggeable button test
           );
         },
       },
@@ -146,9 +155,9 @@ function Table() {
     // this is to change localization
     textLabels: {
       body: {
-        noMatch: "Sorry, no matching records found",
-        toolTip: "Sort",
-        columnHeaderTooltip: (column) => `Sort for ${column.label}`,
+        noMatch: "Disculpe, no se encontró nada con su descripción",
+        toolTip: "Ordenar",
+        columnHeaderTooltip: (column) => `Ordenar pro: ${column.label}`,
       },
       pagination: {
         next: "Siguiente pagina",

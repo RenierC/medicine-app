@@ -7,6 +7,8 @@ import Total from "./Total";
 import BorrarTodo from "./BorrarTodo";
 import EmptyBasket from "./EmptyBasket";
 import { motion } from "framer-motion";
+import theme from "../assets/theme";
+import { ThemeProvider } from "@material-ui/core";
 
 function Basket() {
   const [{ basket }] = useStateValue();
@@ -33,42 +35,44 @@ function Basket() {
     // variants={pageVariants}
     // transition={pageTransition}
     // >
-    <motion.div
-      initial="out"
-      animate="in"
-      exit="out"
-      variants={pageVariants}
-      transition={pageTransition}
-      className="container"
-    >
-      {basket.length === 0 ? (
-        <EmptyBasket />
-      ) : (
-        <div className="basket">
-          {/* <h3>Ud tiene {basket?.length} productos en la cesta </h3> */}
+    <ThemeProvider theme={theme}>
+      <motion.div
+        initial="out"
+        animate="in"
+        exit="out"
+        variants={pageVariants}
+        transition={pageTransition}
+        className="container"
+      >
+        {basket.length === 0 ? (
+          <EmptyBasket />
+        ) : (
+          <div className="basket">
+            {/* <h3>Ud tiene {basket?.length} productos en la cesta </h3> */}
 
-          <div className="enCesta">
-            {basket.map((producto) => (
-              <Producto
-                key={producto.id}
-                id={producto.id}
-                producto={producto.producto}
-                presentacion={producto.presentacion}
-                precio={producto.precio}
-                cantidad={producto.cantidad}
-              />
-            ))}
-            <div className="btnBorrarTodo">
-              <BorrarTodo />
+            <div className="enCesta">
+              {basket.map((producto) => (
+                <Producto
+                  key={producto.id}
+                  id={producto.id}
+                  producto={producto.producto}
+                  presentacion={producto.presentacion}
+                  precio={producto.precio}
+                  cantidad={producto.cantidad}
+                />
+              ))}
+              <div className="btnBorrarTodo">
+                <BorrarTodo />
+              </div>
+            </div>
+
+            <div className="totalBasket">
+              <Total />
             </div>
           </div>
-
-          <div className="totalBasket">
-            <Total />
-          </div>
-        </div>
-      )}
-    </motion.div>
+        )}
+      </motion.div>
+    </ThemeProvider>
     // </motion.div>
   );
 }
