@@ -12,6 +12,7 @@ import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
 import Checkbox from "@material-ui/core/Checkbox";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import { TextField } from "@material-ui/core";
+import { motion } from "framer-motion";
 
 function Table() {
   const [tabla, setTabla] = useState();
@@ -65,6 +66,14 @@ function Table() {
           head: {
             backgroundColor: "#23272a !important",
             color: "#ffffff",
+          },
+        },
+        // in case footer needs to be overriden
+        MuiTablePagination: {
+          root: {
+            //color: "red",
+            //position: "absolute",
+            // left: "1.5rem",
           },
         },
       },
@@ -125,23 +134,70 @@ function Table() {
     filterType: "checkbox",
     print: false,
     download: false,
+    filter: false,
     searchOpen: true,
-    searchPlaceholder: "Digite aca su busqueda",
+    searchPlaceholder: "Digite acá su busqueda",
     selectableRows: "multiple",
     selectableRowsHideCheckboxes: true,
     selectableRowsHeader: false,
     enableNestedDataAccess: ".",
     pagination: true,
+    fixedHeader: true,
+    // this is to change localization
+    textLabels: {
+      body: {
+        noMatch: "Sorry, no matching records found",
+        toolTip: "Sort",
+        columnHeaderTooltip: (column) => `Sort for ${column.label}`,
+      },
+      pagination: {
+        next: "Siguiente pagina",
+        previous: "Pagina anterior",
+        rowsPerPage: "",
+        displayRows: "de",
+      },
+      toolbar: {
+        search: "Buscar",
+        viewColumns: "Ver/Ocultar Columnas",
+        filterTable: "Filter Table",
+      },
+      viewColumns: {
+        title: "Mostrar Columnas",
+        titleAria: "Ver/Ocultar Columnas",
+      },
+    },
+  };
+
+  const pageVariants = {
+    in: {
+      opacity: 1,
+      x: 0,
+    },
+    out: {
+      opacity: 0,
+      x: "-100vw",
+    },
+  };
+  const pageTransition = {
+    type: "linear",
   };
 
   return (
-    <div className="mainTable">
-      <div className="table">
-        <MuiThemeProvider theme={getMuiTheme()}>
-          <MUIDataTable data={tabla} columns={columns} options={options} />
-        </MuiThemeProvider>
+    <motion.div
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+    >
+      <div className="mainTable">
+        <div className="table">
+          <MuiThemeProvider theme={getMuiTheme()}>
+            <MUIDataTable data={tabla} columns={columns} options={options} />
+          </MuiThemeProvider>
+        </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

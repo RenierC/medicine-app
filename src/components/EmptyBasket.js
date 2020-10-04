@@ -7,7 +7,7 @@ import "./EmptyBasket.css";
 function EmptyBasket() {
   return (
     <div className="imgParent">
-      <h1>
+      <h1 className="myText">
         Su carrito esta vacio haga click{" "}
         <Button
           size="small"

@@ -1,16 +1,27 @@
-.imgParent {
+/* .imgParent {
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
   text-align: center;
+} */
+.imgParent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.imgParent > h1 {
-  /* font-size: 6vw; */
+/* .imgParent > h1 {
+  padding: 2rem 2rem 0 2rem;
+  text-align: center;
+} */
+.myText {
+  text-align: center;
+  color: #212529;
+  width: 60vw;
+  margin-top: 4rem;
 }
-
 .emptyIcon > img {
   width: 50vw;
   height: 50vh;

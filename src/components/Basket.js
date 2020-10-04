@@ -6,12 +6,41 @@ import Producto from "./Producto";
 import Total from "./Total";
 import BorrarTodo from "./BorrarTodo";
 import EmptyBasket from "./EmptyBasket";
+import { motion } from "framer-motion";
 
 function Basket() {
   const [{ basket }] = useStateValue();
 
+  const pageVariants = {
+    in: {
+      opacity: 1,
+      x: 0,
+    },
+    out: {
+      opacity: 0,
+      x: "100vw",
+    },
+  };
+  const pageTransition = {
+    type: "linear",
+  };
+
   return (
-    <div className="container">
+    // <motion.div
+    // initial="out"
+    // animate="in"
+    // exit="out"
+    // variants={pageVariants}
+    // transition={pageTransition}
+    // >
+    <motion.div
+      initial="out"
+      animate="in"
+      exit="out"
+      variants={pageVariants}
+      transition={pageTransition}
+      className="container"
+    >
       {basket.length === 0 ? (
         <EmptyBasket />
       ) : (
@@ -39,7 +68,8 @@ function Basket() {
           </div>
         </div>
       )}
-    </div>
+    </motion.div>
+    // </motion.div>
   );
 }
 

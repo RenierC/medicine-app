@@ -1,9 +1,9 @@
 .mainTable {
   display: grid;
   place-items: center;
+  margin: 1rem;
 }
 .table {
   width: 100%;
   max-width: 1000px;
-  margin-top: 2rem;
 }

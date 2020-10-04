@@ -7,10 +7,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import EmptyBasket from "./components/EmptyBasket";
 import SnackbarMessage from "./components/SnackbarMessage";
+import { AnimatePresence } from "framer-motion";
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
-
   // if there is local storage populate basket in the data layer with it
   useEffect(() => {
     const data = localStorage.getItem("localStorageBasket");
@@ -39,20 +39,22 @@ function App() {
 
   return (
     <Router>
-      <div className="App">
+      <div className="App" style={{ overflowX: "hidden" }}>
         <Header />
         <SnackbarMessage />
-        <Switch>
-          <Route path="/empty">
-            <EmptyBasket />
-          </Route>
-          <Route path="/checkout">
-            <Basket />
-          </Route>
-          <Route path="/">
-            <Table />
-          </Route>
-        </Switch>
+        <AnimatePresence exitBeforeEnter>
+          <Switch>
+            <Route path="/empty">
+              <EmptyBasket />
+            </Route>
+            <Route path="/checkout">
+              <Basket />
+            </Route>
+            <Route path="/">
+              <Table />
+            </Route>
+          </Switch>
+        </AnimatePresence>
       </div>
     </Router>
   );

@@ -9,6 +9,7 @@ import { ShoppingBasket } from "@material-ui/icons";
 import { Badge } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import { useStateValue } from "../StateProvider";
+import HomeIcon from "@material-ui/icons/Home";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -34,13 +35,33 @@ export default function ButtonAppBar() {
     <div className={classes.root}>
       <AppBar position="static">
         <Toolbar>
-          <Button component={Link} to="/" color="inherit">
-            Home
+          {/* boton de inicio */}
+          <Button
+            component={Link}
+            to="/"
+            color="inherit"
+            variant="outlined"
+            startIcon={<HomeIcon />}
+          >
+            Inicio
           </Button>
 
           <Typography variant="h6" className={classes.title}></Typography>
 
-          <IconButton
+          {/* boton de cesta */}
+
+          <Button
+            component={Link}
+            to="/checkout"
+            color="inherit"
+            startIcon={
+              <Badge badgeContent={basket?.length} color="secondary">
+                <ShoppingBasket />
+              </Badge>
+            }
+          ></Button>
+          {/* fin botno de cesta  */}
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
@@ -51,7 +72,7 @@ export default function ButtonAppBar() {
             <Badge badgeContent={basket?.length} color="secondary">
               <ShoppingBasket />
             </Badge>
-          </IconButton>
+          </IconButton> */}
         </Toolbar>
       </AppBar>
     </div>
