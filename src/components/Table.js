@@ -121,7 +121,7 @@ function Table({ tablaV2 }) {
     download: false,
     filter: false,
     searchOpen: true,
-    searchPlaceholder: "Digite acá su busqueda",
+    searchPlaceholder: "Digite aquí su búsqueda",
     selectableRows: "multiple",
     selectableRowsHideCheckboxes: true,
     selectableRowsHeader: false,

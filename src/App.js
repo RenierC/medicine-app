@@ -73,7 +73,7 @@ function App() {
             rel="noopener noreferrer"
           >
             {" "}
-            Made by Renier Cuervo <span>©</span>
+            Desarrollado por Renier Cuervo <span>©</span>
           </a>
         </div>
       </div>

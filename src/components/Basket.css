@@ -1,6 +1,7 @@
 .container {
   display: grid;
   place-items: center;
+  margin-top: 4rem;
 }
 .basket {
   display: flex;

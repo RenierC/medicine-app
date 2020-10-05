@@ -32,7 +32,7 @@ export default function ButtonAppBar() {
   return (
     <div className={classes.root}>
       <ThemeProvider theme={theme}>
-        <AppBar position="static" color="primary">
+        <AppBar position="fixed" color="primary">
           <Toolbar>
             {/* boton de inicio */}
             <Button

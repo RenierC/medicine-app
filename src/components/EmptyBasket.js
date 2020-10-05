@@ -9,7 +9,7 @@ function EmptyBasket() {
   return (
     <div className="imgParent">
       <h1 className="myText">
-        Su carrito esta vacío haga click{" "}
+        Su carrito está vacío, haga click{" "}
         <Button
           size="small"
           variant="contained"
@@ -17,7 +17,7 @@ function EmptyBasket() {
           to="/"
           color="primary"
         >
-          Acá
+          Aquí
         </Button>{" "}
         para agregar productos
       </h1>

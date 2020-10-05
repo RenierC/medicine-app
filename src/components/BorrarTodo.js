@@ -61,11 +61,11 @@ export default function AlertDialogSlide() {
         aria-describedby="alert-dialog-slide-description"
       >
         <DialogTitle id="alert-dialog-slide-title">
-          {"¿Vaciar la cesta?"}
+          {"¿Está seguro?"}
         </DialogTitle>
         <DialogContent>
           <DialogContentText id="alert-dialog-slide-description">
-            Esta opción borrará todo el contenido de la cesta
+            Esta opción borrará todo lo que está en su cesta
           </DialogContentText>
         </DialogContent>
         <DialogActions>
