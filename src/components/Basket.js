@@ -1,18 +1,19 @@
 import React from "react";
 import { useStateValue } from "../StateProvider";
 import "./Basket.css";
-
 import Producto from "./Producto";
 import Total from "./Total";
 import BorrarTodo from "./BorrarTodo";
 import EmptyBasket from "./EmptyBasket";
 import { motion } from "framer-motion";
 import theme from "../assets/theme";
+
 import { ThemeProvider } from "@material-ui/core";
 
+// main basket component where the totals and product card goes
 function Basket() {
   const [{ basket }] = useStateValue();
-
+  // animation variables
   const pageVariants = {
     in: {
       opacity: 1,
@@ -26,15 +27,9 @@ function Basket() {
   const pageTransition = {
     type: "linear",
   };
+  // animation variables
 
   return (
-    // <motion.div
-    // initial="out"
-    // animate="in"
-    // exit="out"
-    // variants={pageVariants}
-    // transition={pageTransition}
-    // >
     <ThemeProvider theme={theme}>
       <motion.div
         initial="out"
@@ -73,7 +68,6 @@ function Basket() {
         )}
       </motion.div>
     </ThemeProvider>
-    // </motion.div>
   );
 }
 

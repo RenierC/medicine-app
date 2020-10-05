@@ -1,14 +1,15 @@
-import { Button } from "@material-ui/core";
 import React from "react";
 import { Link } from "react-router-dom";
-import emptyBasketIcon from "../assets/emptyCart.svg";
-import "./EmptyBasket.css";
 
+import "./EmptyBasket.css";
+import { Button } from "@material-ui/core";
+import emptyBasketIcon from "../assets/emptyCart.svg";
+// component being shown when the basket is empty (the guy with picture and button to go back)
 function EmptyBasket() {
   return (
     <div className="imgParent">
       <h1 className="myText">
-        Su carrito esta vacio haga click{" "}
+        Su carrito esta vacío haga click{" "}
         <Button
           size="small"
           variant="contained"

@@ -1,6 +1,7 @@
 import React from "react";
 import CurrencyFormat from "react-currency-format";
 
+//this is the total that appears in each product
 function Subtotal({ cantidad, precio }) {
   return (
     <div className="subtotal">

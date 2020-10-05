@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
+import { useStateValue } from "./StateProvider";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 import Table from "./components/Table";
 import Basket from "./components/Basket";
 import Header from "./components/Header";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { useStateValue } from "./StateProvider";
-import EmptyBasket from "./components/EmptyBasket";
 import SnackbarMessage from "./components/SnackbarMessage";
 import { AnimatePresence } from "framer-motion";
 import db from "./firebase";
@@ -40,6 +39,7 @@ function App() {
     localStorage.setItem("localStorageBasket", JSON.stringify(basket));
   }, [basket]);
 
+  // fetch the data from firebase
   useEffect(() => {
     const fetchData = async () => {
       const data = await db
@@ -47,11 +47,10 @@ function App() {
         .orderBy("producto", "asc")
         .get();
       setTablaV2(data.docs.map((doc) => doc.data()));
-      console.log("triggered 👽");
     };
     fetchData();
   }, []);
-  console.log(tablaV2);
+
   return (
     <Router>
       <div className="App" style={{ overflowX: "hidden" }}>
@@ -59,9 +58,6 @@ function App() {
         <SnackbarMessage />
         <AnimatePresence exitBeforeEnter>
           <Switch>
-            <Route path="/empty">
-              <EmptyBasket />
-            </Route>
             <Route path="/checkout">
               <Basket />
             </Route>
@@ -70,6 +66,16 @@ function App() {
             </Route>
           </Switch>
         </AnimatePresence>
+        <div className="footer">
+          <a
+            href="https://www.linkedin.com/in/renierc/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            Made by Renier Cuervo <span>©</span>
+          </a>
+        </div>
       </div>
     </Router>
   );

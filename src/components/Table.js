@@ -1,31 +1,27 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./Table.css";
-import medicinas from "./medicinas.json";
 import { useStateValue } from "../StateProvider";
-//import db from "../firebase";
 import { v4 as uuidv4 } from "uuid";
 
 import MUIDataTable from "mui-datatables";
 import FormControlLabel from "@material-ui/core/FormControlLabel";
-import ShoppingBasketOutlinedIcon from "@material-ui/icons/ShoppingBasketOutlined";
 import ShoppingBasketIcon from "@material-ui/icons/ShoppingBasket";
-import Checkbox from "@material-ui/core/Checkbox";
 import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import { IconButton, TextField } from "@material-ui/core";
 import { motion } from "framer-motion";
 
-import medicinasV2 from "./medicinasV2.json";
+//import db from "../firebase";
+//import medicinas from "./medicinas.json";
+//import medicinasV2 from "./medicinasV2.json";
 
 function Table({ tablaV2 }) {
-  console.log(tablaV2);
-  const [tabla, setTabla] = useState();
+  //const [tabla, setTabla] = useState();
 
-  const [{ basket }, dispatch] = useStateValue();
-
-  console.log("🧺 " + JSON.stringify(basket));
+  const [, dispatch] = useStateValue();
 
   const addToBasket = (producto) => {
     const amount = producto[3];
+    // if the user didn't specifiy quantity default to 1
     let cantidad = () => (amount ? amount : 1);
     showSnack("success");
 
@@ -33,7 +29,6 @@ function Table({ tablaV2 }) {
       type: "ADD_TO_BASKET",
       item: {
         id: uuidv4(),
-        // id: producto,
         producto: producto[0],
         presentacion: producto[1],
         precio: Number(producto[2]),
@@ -42,53 +37,18 @@ function Table({ tablaV2 }) {
     });
   };
 
-  // const addToBasket = (tableMeta) => {
-  //   const amount = tableMeta.rowData[3];
-  //   let cantidad = () => (amount ? amount : 1);
-  //   showSnack("success");
-
-  //   dispatch({
-  //     type: "ADD_TO_BASKET",
-  //     item: {
-  //       id: uuidv4(),
-  //       // id: tableMeta.rowIndex,
-  //       producto: tableMeta.rowData[0],
-  //       presentacion: tableMeta.rowData[1],
-  //       precio: Number(tableMeta.rowData[2]),
-  //       cantidad: Number(cantidad()),
-  //     },
-  //   });
-  // };
-
   const showSnack = (message) => {
     dispatch({
       type: "SHOW_SNACKBAR",
       kind: message,
     });
   };
-
-  useEffect(() => {
-    setTabla(medicinas);
-  }, []);
-
-  // funcion para hablar con db
+  // uncomment to use local json
   // useEffect(() => {
-  //   db.collection("medicinas").onSnapshot((snapshot) => {
-  //     console.log( snapshot.docs.map((doc) => doc.data()));
-  //     setTabla(snapshot.docs.map((doc) => doc.data()));
-  //   });
+  //   setTabla(medicinas);
   // }, []);
 
-  // talk to bd pt 2
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const data = await db.collection("medicinas").get();
-  //     setTablaV2(data.docs.map((doc) => doc.data()));
-  //     console.log("triggered 👽");
-  //   };
-  //   fetchData();
-  // }, []);
-  // function to change the header color
+  // function to override the header and footer
   function getMuiTheme() {
     return createMuiTheme({
       overrides: {
@@ -99,13 +59,13 @@ function Table({ tablaV2 }) {
           },
         },
         // in case footer needs to be overriden
-        MuiTablePagination: {
-          root: {
-            //color: "red",
-            //position: "absolute",
-            // left: "1.5rem",
-          },
-        },
+        // MuiTablePagination: {
+        //   root: {
+        //     color: "red",
+        //     position: "absolute",
+        //     left: "1.5rem",
+        //   },
+        // },
       },
     });
   }
@@ -196,7 +156,7 @@ function Table({ tablaV2 }) {
       },
     },
   };
-
+  // variables for the transition animation
   const pageVariants = {
     in: {
       opacity: 1,
@@ -210,6 +170,7 @@ function Table({ tablaV2 }) {
   const pageTransition = {
     type: "linear",
   };
+  // variables for the transition animation
 
   return (
     <motion.div

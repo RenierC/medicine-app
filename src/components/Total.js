@@ -1,10 +1,10 @@
-import { Card, CardContent, makeStyles, Typography } from "@material-ui/core";
 import React from "react";
-import CurrencyFormat from "react-currency-format";
-import { totalCesta } from "../reducer";
 import { useStateValue } from "../StateProvider";
-import "./Total.css";
+import { totalCesta } from "../reducer";
+import CurrencyFormat from "react-currency-format";
 
+import { Card, CardContent, makeStyles, Typography } from "@material-ui/core";
+// this is the total component that shows in the basket
 function Total() {
   const [{ basket }] = useStateValue();
 

@@ -1,15 +1,14 @@
+// my global state
 export const initialState = {
   basket: [],
   showSnacks: false,
   kind: "",
 };
-
+// sums all the prices currently in the basket
 export const totalCesta = (basket) =>
   basket?.reduce((total, item) => item.precio * item.cantidad + total, 0);
 
 const reducer = (state, action) => {
-  console.log(action);
-
   // searches the current product
   const index = state.basket.findIndex(
     (basketItem) => basketItem.id === action.id

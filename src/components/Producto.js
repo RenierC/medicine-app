@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { useStateValue } from "../StateProvider";
+import Subtotal from "./Subtotal";
+
 import { makeStyles } from "@material-ui/core/styles";
 import Card from "@material-ui/core/Card";
 import CardActions from "@material-ui/core/CardActions";
@@ -7,9 +10,8 @@ import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 import { TextField } from "@material-ui/core";
 import DeleteIcon from "@material-ui/icons/Delete";
-import { useStateValue } from "../StateProvider";
-import Subtotal from "./Subtotal";
 
+// template to put each item in the basket into cards
 const useStyles = makeStyles({
   root: {
     display: "flex",
@@ -25,7 +27,6 @@ const useStyles = makeStyles({
   },
   content: {
     flex: "1 0 auto",
-    // border: "1px red solid",
   },
   cantidadField: {
     float: "right",
@@ -37,9 +38,6 @@ const useStyles = makeStyles({
     flex: "1 0 auto",
     width: "100%",
     padding: "1rem",
-    // alignSelf: "flex-end",
-    // flexGrow: 1,
-    // border: "1px red solid",
   },
 });
 
@@ -88,7 +86,7 @@ export default function Producto({
           </Typography>
         </CardContent>
       </div>
-      {/* CAntidad */}
+      {/* Cantidad */}
       <CardContent className={classes.content}>
         <div className={classes.cantidadField}>
           <TextField
@@ -111,9 +109,6 @@ export default function Producto({
       </CardContent>
       <div className={classes.subtotal}>
         <CardContent className={classes.content}>
-          {/* <Typography variant="body1" component="h6" align="center">
-          RD$<strong>{cantidad * precio}</strong>
-        </Typography> */}
           <Subtotal cantidad={cantidad} precio={precio} />
         </CardContent>
       </div>

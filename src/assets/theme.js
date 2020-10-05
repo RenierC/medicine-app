@@ -1,5 +1,5 @@
 import { createMuiTheme } from "@material-ui/core/styles";
-
+// the teal blue used, add secondary to apply secondary color to everything else
 const theme = createMuiTheme({
   palette: {
     primary: {
