@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import Table from "./components/Table";
 import Basket from "./components/Basket";
@@ -8,9 +8,12 @@ import { useStateValue } from "./StateProvider";
 import EmptyBasket from "./components/EmptyBasket";
 import SnackbarMessage from "./components/SnackbarMessage";
 import { AnimatePresence } from "framer-motion";
+import db from "./firebase";
 
 function App() {
   const [{ basket }, dispatch] = useStateValue();
+  const [tablaV2, setTablaV2] = useState([]);
+
   // if there is local storage populate basket in the data layer with it
   useEffect(() => {
     const data = localStorage.getItem("localStorageBasket");
@@ -37,6 +40,18 @@ function App() {
     localStorage.setItem("localStorageBasket", JSON.stringify(basket));
   }, [basket]);
 
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await db
+        .collection("medicinas")
+        .orderBy("producto", "asc")
+        .get();
+      setTablaV2(data.docs.map((doc) => doc.data()));
+      console.log("triggered 👽");
+    };
+    fetchData();
+  }, []);
+  console.log(tablaV2);
   return (
     <Router>
       <div className="App" style={{ overflowX: "hidden" }}>
@@ -51,7 +66,7 @@ function App() {
               <Basket />
             </Route>
             <Route path="/">
-              <Table />
+              <Table tablaV2={tablaV2} />
             </Route>
           </Switch>
         </AnimatePresence>

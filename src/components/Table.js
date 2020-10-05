@@ -14,15 +14,18 @@ import { createMuiTheme, MuiThemeProvider } from "@material-ui/core/styles";
 import { IconButton, TextField } from "@material-ui/core";
 import { motion } from "framer-motion";
 
-function Table() {
+import medicinasV2 from "./medicinasV2.json";
+
+function Table({ tablaV2 }) {
+  console.log(tablaV2);
   const [tabla, setTabla] = useState();
 
   const [{ basket }, dispatch] = useStateValue();
 
   console.log("🧺 " + JSON.stringify(basket));
 
-  const addToBasket = (tableMeta) => {
-    const amount = tableMeta.rowData[3];
+  const addToBasket = (producto) => {
+    const amount = producto[3];
     let cantidad = () => (amount ? amount : 1);
     showSnack("success");
 
@@ -30,14 +33,32 @@ function Table() {
       type: "ADD_TO_BASKET",
       item: {
         id: uuidv4(),
-        // id: tableMeta.rowIndex,
-        producto: tableMeta.rowData[0],
-        presentacion: tableMeta.rowData[1],
-        precio: Number(tableMeta.rowData[2]),
+        // id: producto,
+        producto: producto[0],
+        presentacion: producto[1],
+        precio: Number(producto[2]),
         cantidad: Number(cantidad()),
       },
     });
   };
+
+  // const addToBasket = (tableMeta) => {
+  //   const amount = tableMeta.rowData[3];
+  //   let cantidad = () => (amount ? amount : 1);
+  //   showSnack("success");
+
+  //   dispatch({
+  //     type: "ADD_TO_BASKET",
+  //     item: {
+  //       id: uuidv4(),
+  //       // id: tableMeta.rowIndex,
+  //       producto: tableMeta.rowData[0],
+  //       presentacion: tableMeta.rowData[1],
+  //       precio: Number(tableMeta.rowData[2]),
+  //       cantidad: Number(cantidad()),
+  //     },
+  //   });
+  // };
 
   const showSnack = (message) => {
     dispatch({
@@ -53,11 +74,20 @@ function Table() {
   // funcion para hablar con db
   // useEffect(() => {
   //   db.collection("medicinas").onSnapshot((snapshot) => {
-  //     console.log(snapshot.docs.map((doc) => doc.data()));
+  //     console.log( snapshot.docs.map((doc) => doc.data()));
   //     setTabla(snapshot.docs.map((doc) => doc.data()));
   //   });
   // }, []);
 
+  // talk to bd pt 2
+  // useEffect(() => {
+  //   const fetchData = async () => {
+  //     const data = await db.collection("medicinas").get();
+  //     setTablaV2(data.docs.map((doc) => doc.data()));
+  //     console.log("triggered 👽");
+  //   };
+  //   fetchData();
+  // }, []);
   // function to change the header color
   function getMuiTheme() {
     return createMuiTheme({
@@ -112,27 +142,13 @@ function Table() {
         empty: true,
         customBodyRender: (value, tableMeta, updateValue) => {
           return (
-            // <FormControlLabel
-            //   onClick={(e) => {
-            //     addToBasket(tableMeta);
-            //   }}
-            //   control={
-            //     <Checkbox
-            //       icon={<ShoppingBasketOutlinedIcon />}
-            //       checkedIcon={<ShoppingBasketIcon />}
-            //       name="checkedH"
-            //     />
-            //   }
-            // />
-            // non toggeable button test
             <IconButton
               onClick={() => {
-                addToBasket(tableMeta);
+                addToBasket(tableMeta.rowData);
               }}
             >
               <ShoppingBasketIcon style={{ color: "#3796a3" }} />
             </IconButton>
-            // finish non toggeable button test
           );
         },
       },
@@ -152,12 +168,16 @@ function Table() {
     enableNestedDataAccess: ".",
     pagination: true,
     fixedHeader: true,
+    sortOrder: {
+      name: "Producto",
+      direction: "asc",
+    },
     // this is to change localization
     textLabels: {
       body: {
         noMatch: "Disculpe, no se encontró nada con su descripción",
         toolTip: "Ordenar",
-        columnHeaderTooltip: (column) => `Ordenar pro: ${column.label}`,
+        columnHeaderTooltip: (column) => `Ordenar por: ${column.label}`,
       },
       pagination: {
         next: "Siguiente pagina",
@@ -202,7 +222,7 @@ function Table() {
       <div className="mainTable">
         <div className="table">
           <MuiThemeProvider theme={getMuiTheme()}>
-            <MUIDataTable data={tabla} columns={columns} options={options} />
+            <MUIDataTable data={tablaV2} columns={columns} options={options} />
           </MuiThemeProvider>
         </div>
       </div>
