@@ -1,68 +1,47 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pharmacy quotation app
 
-## Available Scripts
+This app was created using an Ecommerce-like pattern with ⚛ React's hooks and context API in conjunctions with 🔥Firebases's Firestore to store the prices and data, you can check it live here.
 
-In the project directory, you can run:
+👉🏼 https://medicinas-df535.web.app/
 
-### `npm start`
+### Case Study
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This particular network of pharmacies has a goverment subsidiation in which their users should pay with low denominations bank notes.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### The problem
 
-### `npm test`
+Users often don't know how much cash they need to have which causes long lines at checkout and conflicts with cashiers since they often can't give change with smaller bills. 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### The solution
 
-### `npm run build`
+This app allows users use a familiar ecommerce model to check their products and prices, complete with sorting and table view to generate quotation in which they know exactly how much cash to bring at checkout
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### ⚠ To run using your own db 
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Add a file named firebase.js to the src with the following structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```javascript
+const firebaseApp = firebase.initializeApp({
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
+});
 
-### `npm run eject`
+const db = firebaseApp.firestore();
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+export default db;
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+And your own api keys from firebase.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+*The database has the structure of medicine > uniqueId > {precio, presentacion, producto }*
+ 
+### `npm install`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `npm run`
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
